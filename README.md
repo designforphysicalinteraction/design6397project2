@@ -1,4 +1,4 @@
-# Large Language Object - 2024 Edition
+# Project 2: Large Language Object - 2024 Edition
 
 This is a simple template that combines OpenAI's Node.js SDK, a P5.js sketch, a serial connection to an Arduino, and Vite for code autorefresh.
 
@@ -21,12 +21,16 @@ Clone the repository with git or download the code from the repository as a zip 
 
 Then install the libraries:
 
-    cd LLO
+If you don't have Node installed on your computer: First install NVM (https://github.com/nvm-sh/nvm):
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
+    nvm install 23
+
+    cd [your project 2 development folder]
     npm install
 
 ## Start the dev environment
 
-This template uses [Vite](https://vitejs.dev/) as a local development server. Start it with the following:
+This template uses [Vite](https://vitejs.dev/) as a local development server. Start it with the following in your project folder:
 
     npm run dev
 
