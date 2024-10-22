@@ -19,12 +19,13 @@ This template requires a recent version of Node.js, recommended version 16 or la
 
 Clone the repository with git or download the code from the repository as a zip file.
 
-Then install the libraries:
-
-If you don't have Node installed on your computer: First install NVM (https://github.com/nvm-sh/nvm):
+If you don't have Node installed on your computer, first install NVM (https://github.com/nvm-sh/nvm):
 
     curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
     nvm install 23
+
+Install the libraries:
+    
     cd [your project 2 development folder]
     npm install
 
