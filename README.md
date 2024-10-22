@@ -22,9 +22,9 @@ Clone the repository with git or download the code from the repository as a zip 
 Then install the libraries:
 
 If you don't have Node installed on your computer: First install NVM (https://github.com/nvm-sh/nvm):
+
     curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
     nvm install 23
-
     cd [your project 2 development folder]
     npm install
 
