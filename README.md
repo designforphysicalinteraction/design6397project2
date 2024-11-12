@@ -19,7 +19,8 @@ This template requires a recent version of Node.js, recommended version 16 or la
 
 Clone the repository with git or download the code from the repository as a zip file.
 
-If you don't have Node installed on your computer, first install NVM (https://github.com/nvm-sh/nvm):
+## Mac Install Instructions
+If you don't have Node installed on your computer, first install [NVM](https://github.com/nvm-sh/nvm) in the terminal:
 
     curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
     nvm install 23
@@ -35,8 +36,7 @@ This template uses [Vite](https://vitejs.dev/) as a local development server. St
 
     npm run dev
 
-By default, this starts a local server at http://localhost:5173/. Just copy/paste this URL into
-a browser window to view the app. This will automatically update when you save changes to your code (that is, no manual refresh required!).
+By default, this starts a local server at http://localhost:5173/. Just copy/paste this URL into a browser window to view the app. This will automatically update when you save changes to your code (that is, no manual refresh is required!). You need to use a browser that supports Web Serial, such as Chrome.
 
 ## OpenAI API Key
 
