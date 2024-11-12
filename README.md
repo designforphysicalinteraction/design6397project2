@@ -19,13 +19,17 @@ This template requires a recent version of Node.js, recommended version 16 or la
 
 Clone the repository with git or download the code from the repository as a zip file.
 
-## Mac Install Instructions
+## Node.js Mac Installation
 If you don't have Node installed on your computer, first install [NVM](https://github.com/nvm-sh/nvm) in the terminal:
 
     curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
     nvm install 23
 
-Install the libraries:
+## Node.js Windows Installation
+
+For instructions on how to install Node.js on your Windows computer, see [https://learn.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-windows](https://learn.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-windows)
+
+## Install the libraries:
     
     cd [your project 2 development folder]
     npm install
