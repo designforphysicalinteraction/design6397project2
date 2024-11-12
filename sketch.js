@@ -6,6 +6,7 @@ import OpenAI from 'openai';
 
 // Declare globals.
 // Put your OpenAI API key here.
+const apiKey = "-- INSERT YOUR OPENAI KEY HERE --";
 let openai;
 
 // Keep all non-P5.js code outside of the sketch() function as much as possible.
